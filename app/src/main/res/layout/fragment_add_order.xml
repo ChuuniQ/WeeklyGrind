@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".AddOrderFragment">
+
+        <com.google.android.material.card.MaterialCardView
+            style="@style/CustomCardViewStyle"
+            app:cardBackgroundColor="@color/banana"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Appetizers:"
+                    android:textColor="@color/brown"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <CheckBox
+                    android:id="@+id/burger"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Burger Sliders"
+                    android:textColor="@color/brown"/>
+
+                <CheckBox
+                    android:id="@+id/cheesestick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cheese Sticks"
+                    android:textColor="@color/brown"/>
+
+                <CheckBox
+                    android:id="@+id/chickenwings"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chicken Wings"
+                    android:textColor="@color/brown"/>
+
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            style="@style/CustomCardViewStyle"
+            app:cardBackgroundColor="@color/banana"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mains:"
+                    android:textColor="@color/brown"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <CheckBox
+                    android:id="@+id/lasagna"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lasagna"
+                    android:textColor="@color/brown"/>
+
+                <CheckBox
+                    android:id="@+id/grilledsalmon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Grilled Salmon"
+                    android:textColor="@color/brown"/>
+
+                <CheckBox
+                    android:id="@+id/fishchips"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fish and Chips"
+                    android:textColor="@color/brown"/>
+
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            style="@style/CustomCardViewStyle"
+            app:cardBackgroundColor="@color/banana"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dessert:"
+                    android:textColor="@color/brown"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <CheckBox
+                    android:id="@+id/lechflan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Leche-Flan"
+                    android:textColor="@color/brown"/>
+
+                <CheckBox
+                    android:id="@+id/chocowaffle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chocolate Waffle"
+                    android:textColor="@color/brown"/>
+
+                <CheckBox
+                    android:id="@+id/coffeejelly"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Coffee jelly"
+                    android:textColor="@color/brown"/>
+
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            style="@style/CustomCardViewStyle"
+            app:cardBackgroundColor="@color/banana"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Drinks:"
+                    android:textColor="@color/brown"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <CheckBox
+                    android:id="@+id/coffee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Coffee"
+                    android:textColor="@color/brown"/>
+
+                <CheckBox
+                    android:id="@+id/cocacola"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Coca Cola"
+                    android:textColor="@color/brown"/>
+
+                <CheckBox
+                    android:id="@+id/lemontea"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Iced Lemon Tea"
+                    android:textColor="@color/brown"/>
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <Button
+            android:id="@+id/orderBtn"
+            android:layout_width="300dp"
+            android:layout_height="52dp"
+            android:text="Order"
+            android:textColor="@color/banana"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+</ScrollView>

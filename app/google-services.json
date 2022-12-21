@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "997683862953",
+    "project_id": "weekly-grind-915ba",
+    "storage_bucket": "weekly-grind-915ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997683862953:android:c5a562a96b49744ab638b8",
+        "android_client_info": {
+          "package_name": "com.example.weeklygrind"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "997683862953-osvvm94du0gnm3101odgtv3s71d6nsl2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeQbJUmiG2rN4Ocx48AzpJbBSlNVqCGxM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "997683862953-osvvm94du0gnm3101odgtv3s71d6nsl2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

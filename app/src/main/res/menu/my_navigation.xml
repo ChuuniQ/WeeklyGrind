@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_menu"
+            android:icon="@drawable/ic_menu"
+            android:title="Menu"
+            android:iconTint="@color/brown"/>
+
+        <item
+            android:id="@+id/nav_order"
+            android:icon="@drawable/ic_order"
+            android:title="Order"
+            android:iconTint="@color/brown"/>
+
+        <item
+            android:id="@+id/nav_reservations"
+            android:icon="@drawable/ic_reservation"
+            android:title="Reservations"
+            android:iconTint="@color/brown"/>
+
+
+        <item
+            android:id="@+id/nav_favorites"
+            android:icon="@drawable/ic_fav"
+            android:title="Rate Us"
+            android:iconTint="@color/brown"/>
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Logout"
+            android:iconTint="@color/brown"/>
+    </group>
+
+</menu>
